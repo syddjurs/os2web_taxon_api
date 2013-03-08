@@ -32,13 +32,6 @@ function os2web_taxon_api_page() {
   return $tmp;
 }
 
-
-/**
- * Implements hook_init().
- */
-function os2web_taxon_api_init() {
-}
-
 /**
  * Get turms function.
  *
@@ -68,6 +61,6 @@ function _os2web_taxon_api_get_instance() {
   if (is_object($obj)) {
     return $obj;
   }
-  module_load_include('inc', 'os2web_taxon_api', 'TaxonWS.class');
+  module_load_include('inc', 'os2web_taxon_api', 'includes/TaxonWS.class');
   return $obj = new TaxonWS();
 }

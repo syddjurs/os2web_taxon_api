@@ -8,6 +8,15 @@ Implements calls to taxon
 Dependencies
 -----------
 
+Recommended Dependencies
+-----------
+- OS2Web Taxon Taxonomy
+- OS2Web Taxonomy Autocomplete
+
+Test
+-----------
+You can test the Taxon service at [os2web/taxon/test]
+
 Installation
 -----------
 This module should reside in the modules directory of the installation,
