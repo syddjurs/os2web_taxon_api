@@ -7,4 +7,3 @@ package = OS2Web - Kerne
 core = 7.x
 
 dependencies[] = os2web_taxon_taxonomy
-dependencies[] = os2web_taxonomy_autocomplete
