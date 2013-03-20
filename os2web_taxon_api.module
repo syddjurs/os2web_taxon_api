@@ -4,6 +4,8 @@
  * os2web_taxon_api.module
  */
 
+include_once 'os2web_taxon_api.features.inc';
+
 /**
  * Implements hook_menu().
  */

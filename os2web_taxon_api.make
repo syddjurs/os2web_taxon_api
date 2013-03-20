@@ -17,3 +17,6 @@ projects[os2web_taxon_taxonomy][download][url] = "git://github.com/OS2web/os2web
 ; Contrib modules
 
 ; Basic
+
+projects[strongarm][subdir] = "contrib"
+projects[strongarm][version] = "2.0"
