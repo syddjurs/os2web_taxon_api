@@ -4,6 +4,7 @@ description = Implements calls to taxon
 package = OS2Web - Backend
 project = os2web_taxon_api
 core = 7.x
+version = 7.x-1.0-beta1
 
 dependencies[] = os2web_taxon_taxonomy
 dependencies[] = strongarm
