@@ -11,8 +11,8 @@ include_once 'os2web_taxon_api.features.inc';
  */
 function os2web_taxon_api_menu() {
   $items['os2web/taxon/test'] = array(
-    'title' => t('Taxon test page'),
-    'description' => t('taxon api test page.'),
+    'title' => 'Taxon test page',
+    'description' => 'taxon api test page.',
     'access arguments' => array('administer os2web'),
     'page callback' => 'os2web_taxon_api_page',
     'type' => MENU_CALLBACK,
