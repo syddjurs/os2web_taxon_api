@@ -35,14 +35,14 @@ function os2web_taxon_api_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'os2web_taxon_taxonomy_field_name';
-  $strongarm->value = '#edit-field-termref-kle-und';
+  $strongarm->value = '#edit-field-os2web-base-field-kle-ref-und';
   $export['os2web_taxon_taxonomy_field_name'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'os2web_taxon_taxonomy_not_selected_image';
-  $strongarm->value = '/profiles/os2web/modules/os2web/taxon_taxonomy/images/not_selected_png';
+  $strongarm->value = '/profiles/os2web/modules/os2web_taxon_taxonomy/images/not_selected_png';
   $export['os2web_taxon_taxonomy_not_selected_image'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -56,14 +56,14 @@ function os2web_taxon_api_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'os2web_taxon_taxonomy_selected_image';
-  $strongarm->value = '/profiles/os2web/modules/os2web/taxon_taxonomy/images/selected_png';
+  $strongarm->value = '/profiles/os2web/modules/os2web_taxon_taxonomy/images/selected_png';
   $export['os2web_taxon_taxonomy_selected_image'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'os2web_taxon_taxonomy_taxonomy_name';
-  $strongarm->value = 'kle';
+  $strongarm->value = 'os2web_taxonomies_tax_kle';
   $export['os2web_taxon_taxonomy_taxonomy_name'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -77,7 +77,7 @@ function os2web_taxon_api_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'os2web_taxon_taxonomy_wait_image';
-  $strongarm->value = '/profiles/os2web/modules/os2web/taxon_taxonomy/images/wait.gif';
+  $strongarm->value = '/profiles/os2web/modules/os2web_taxon_taxonomy/images/wait.gif';
   $export['os2web_taxon_taxonomy_wait_image'] = $strongarm;
 
   return $export;
