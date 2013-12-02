@@ -5,10 +5,10 @@ core = 7.x
 
 ; OS2Web Modules
 
-projects[os2web_taxon_taxonomy][type] = "module"
-projects[os2web_taxon_taxonomy][download][type] = "git"
-projects[os2web_taxon_taxonomy][download][branch] = "master"
-projects[os2web_taxon_taxonomy][download][url] = "https://github.com/OS2web/os2web_taxon_taxonomy.git"
+projects[taxon_taxonomy][type] = "module"
+projects[taxon_taxonomy][download][type] = "git"
+projects[taxon_taxonomy][download][branch] = "master"
+projects[taxon_taxonomy][download][url] = "https://github.com/OS2web/taxon_taxonomy.git"
 
 ;; Contrib modules below:
 
